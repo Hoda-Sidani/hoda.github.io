@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 30px;
+            background-color: rgb(184, 111, 184);
+        }
+        li{
+            font-size: 15px;
+            font-weight: normal;
+        }
+        .layer1, .layer2{
+            width: 300px;
+            height: 220px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: left;
+            margin-right: 40px;
+            padding-top: auto;
+        }
+        .layer1{
+            background-color: rgb(206, 203, 191);
+            margin-left: 30px;
+        }
+        .box1{
+            font-weight: normal;
+            font-size: 15px;
+        }
+        .layer2{
+            background-color: rgb(184, 111, 184);
+        } 
+        .layer3{
+            width: 300px;
+            height: 220px;
+            background-color: rgb(184, 111, 184);
+            margin-left: 30px;
+            text-align: left;
+            margin-right: 40px;
+            margin-top: 40px;
+            padding-top: auto;
+        }
+        .layer4{
+             background-color: rgb(206, 203, 191);
+             width: 300px;
+            height: 220px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: left;
+            margin-right: 40px;
+            margin-top: 40px;
+            padding-top: auto;
+        }
+        .hobbies{
+            margin-top: 40px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hoda Sidani</h1>
+    <ul>
+        <li>email: hoda.sidani7@gmail.com</li>
+        <li>phone: +961-81711083</li>
+        <li>social-media platforms:
+            <ol>
+                <li><a href="https://www.instagram.com/hoda.sidani/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/hoda-sidani-501199262" target="_blank">Linked-in</a></li>
+            </ol>
+        </li>
+    </ul> 
+    <br>
+    <div class="layer1">
+        <h2>Education:</h2>
+        <div class="box1">
+            High-school: Hariri-III
+            <div>2007-2021</div>
+        </div>
+        <br>
+        <div class="box1">University: American University of Beirut
+            <div>2021-2025</div>
+        </div>
+    </div>
+    <div class="layer2">
+        <h2>Extracurricular Activities:</h2>
+        <div class="box1">
+            Volunteer at LRCYC
+            <div>2019-2021</div>
+        </div>
+        <br>
+        <div class="box1">Published Wikipedia article
+            <div><a href="https://en.wikipedia.org/wiki/Ihsan_El-Kousy" target="_blank">article link</a></div>
+        </div>
+        <br>
+        <div class="box1">
+            Amazon Industry Program
+            <div>2023</div>
+        </div>
+    </div>
+    <div class="layer3">
+        <h2>Skills:</h2>
+        <div class="box1">
+            <ol>
+                <li>Communication</li>
+                <li>Creativity</li>
+                <li>Time-management</li>
+                <li>Leadership</li>
+                <li>Active Listening</li>
+            </ol>
+        </div>
+    </div>
+    <div class="layer4">
+        <h2>Projects:</h2>
+        <div class="box1">
+            Client-Server using Python
+        </div>
+        <br>
+        <div class="box1">
+            Least-cost routing path using C++
+        </div>
+        <br>
+        <div class="box1">
+            Traffic Lights using VHDL
+        </div>
+    </div>
+    <form>
+        <div class="hobbies">
+            My hobbies include all of the following, mark the hobbies that interest you too!
+            <div class="box1">
+                <div>
+                    <label for="Hiking">Hiking</label>
+                    <input type="checkbox" name="hobby" value="Hiking">
+                </div>
+                <div>
+                    <label for="Reading">Reading</label>
+                    <input type="checkbox" name="hobby" value="Reading">
+                </div>
+                <div>
+                    <label for="Going out">Going out</label>
+                    <input type="checkbox" name="hobby" value="Going out">
+                </div>
+                <div>
+                    <label for="Listening to Music">Listening to Music</label>
+                    <input type="checkbox" name="hobby" value="Listening to Music">
+                </div>
+                <div>
+                    <label for="Journaling">Journaling</label>
+                    <input type="checkbox" name="hobby" value="Journaling">
+                </div>
+                <div>
+                    <label for="Baking">Baking</label>
+                    <input type="checkbox" name="hobby" value="Baking">
+                </div>
+                <br>
+                <div>
+                    <label for="comment">Kindly leave a comment!</label>
+                    <input type="text" name="comment">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
